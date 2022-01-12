@@ -10,3 +10,50 @@ body {
 }
 
 /* Add styles here! */
+.max-width-wrapper{
+  margin-left: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+.title{
+  margin-bottom:40px;
+}
+.intro-chunk{
+  max-width: 330px;
+}
+
+main .max-width-wrapper{
+  margin: 0px;
+  height: 500px;
+  background-color:hsl(0deg, 0%, 60%);
+  border-top: 8px solid hsl(0deg, 0%, 40%);
+  border-bottom: 1px solid hsl(0deg, 0%, 20%);
+}
+
+.indented-heading{
+  max-width: 60%;
+  min-width: auto;
+  min-height: 10%;
+  margin: 0px 0px 0px -8px;
+  padding: 10px 10px 10px 24px;
+  background-color: hsl(45deg, 100%, 50%);
+  border-bottom: 8px solid hsl(45deg, 100%, 40%);
+}
+
+.card {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-left: 64px;
+  margin-top: 80px;
+  margin-right: 330px;
+  min-width:60%;
+  max-width:80%;
+  background-color: white;  
+  border-left: 1px solid hsl(0deg, 0%, 20%);
+  border-right: 2px solid hsl(0deg, 0%, 20%);
+  border-bottom: 8px solid hsl(0deg, 0%, 40%);
+}
+
+.card > p{
+  padding-left: 16px;  
+}
